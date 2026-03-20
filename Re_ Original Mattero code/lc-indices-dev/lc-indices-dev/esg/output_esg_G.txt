@@ -1,0 +1,42 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    esg   R-squared:                       0.010
+Model:                            OLS   Adj. R-squared:                  0.009
+Method:                 Least Squares   F-statistic:                     34.80
+Date:                Thu, 27 Mar 2025   Prob (F-statistic):          9.63e-121
+Time:                        23:46:58   Log-Likelihood:                -87636.
+No. Observations:               62057   AIC:                         1.753e+05
+Df Residuals:                   62038   BIC:                         1.755e+05
+Df Model:                          18                                         
+Covariance Type:                  HC1                                         
+==========================================================================================================
+                                             coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+Intercept                              -2.529e-05      0.004     -0.006      0.995      -0.008       0.008
+signal_1:C(Industry)[Consumer Staple]      0.0993      0.015      6.709      0.000       0.070       0.128
+signal_1:C(Industry)[Consumer goods]       0.1780      0.013     13.474      0.000       0.152       0.204
+signal_1:C(Industry)[Energy]               0.0325      0.013      2.501      0.012       0.007       0.058
+signal_1:C(Industry)[Financial]            0.0157      0.010      1.552      0.121      -0.004       0.036
+signal_1:C(Industry)[Health Care]          0.0907      0.015      6.199      0.000       0.062       0.119
+signal_1:C(Industry)[Industrial]          -0.0049      0.011     -0.443      0.658      -0.026       0.017
+signal_1:C(Industry)[Industrial goods]    -0.1038      0.022     -4.669      0.000      -0.147      -0.060
+signal_1:C(Industry)[Material]            -0.0371      0.014     -2.692      0.007      -0.064      -0.010
+signal_1:C(Industry)[Technology]           0.0909      0.010      8.893      0.000       0.071       0.111
+signal_2:C(Industry)[Consumer Staple]      0.1472      0.014     10.428      0.000       0.120       0.175
+signal_2:C(Industry)[Consumer goods]       0.0297      0.013      2.331      0.020       0.005       0.055
+signal_2:C(Industry)[Energy]               0.0460      0.011      4.184      0.000       0.024       0.067
+signal_2:C(Industry)[Financial]            0.0635      0.010      6.284      0.000       0.044       0.083
+signal_2:C(Industry)[Health Care]          0.0115      0.015      0.748      0.455      -0.019       0.041
+signal_2:C(Industry)[Industrial]          -0.0649      0.011     -6.172      0.000      -0.086      -0.044
+signal_2:C(Industry)[Industrial goods]    -0.1618      0.020     -8.010      0.000      -0.201      -0.122
+signal_2:C(Industry)[Material]            -0.0189      0.013     -1.435      0.151      -0.045       0.007
+signal_2:C(Industry)[Technology]           0.0356      0.010      3.502      0.000       0.016       0.056
+==============================================================================
+Omnibus:                     3356.635   Durbin-Watson:                   1.998
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2588.028
+Skew:                          -0.410   Prob(JB):                         0.00
+Kurtosis:                       2.428   Cond. No.                         6.04
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)

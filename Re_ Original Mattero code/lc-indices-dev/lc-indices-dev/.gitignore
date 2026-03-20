@@ -1,0 +1,7 @@
+
+/data/*
+/descriptives/*.csv
+!/data/shared_*
+*.env
+*.pyc
+.DS_Store
